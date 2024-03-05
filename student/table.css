@@ -1,0 +1,47 @@
+table { 
+   width: 100%;
+  border-collapse: collapse;
+}
+th { 
+  position: sticky;
+  top: 0;
+  background: blue; 
+  color: white; 
+   border: 1px dotted #001f3f;
+  text-align: left;
+  font-weight: bold; 
+  font-size: 23px;
+}
+td { 
+ border: 1px dotted #001f3f;
+  text-align:center; 
+  font-size: 17px;
+  color: black;
+  background-color: white;
+}
+
+@media screen and (max-width: 650px){
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+#myInput {
+ 
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 70%;
+  font-size: 20px;
+  padding: 12px 10px 12px 10px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+#myInput:hover {
+color: blue;
+background: ;
+border: 2px solid red;
+}
